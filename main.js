@@ -9,3 +9,6 @@ function calculate()
       result.innerHTML="The interest for the specify No.of years is " + (p*n*r/100);
 
      }
+    function myFunction() {
+          document.getElementById("myForm").reset();
+        }
