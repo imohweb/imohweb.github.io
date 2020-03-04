@@ -1,5 +1,5 @@
 /* Stylesheet */
-    input {width: 100%;
+    input {width: 50%;
     padding: 12px 20px;
     margin: 8px 0;
     display: inline-block;
@@ -9,7 +9,7 @@
     align-items: center;
     }
     button {
-        width: 100%;
+        width: 50%;
         background-color: #ca4eb6;
         color:black;
         padding: 14px 20px;
