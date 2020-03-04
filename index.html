@@ -14,11 +14,10 @@
         <a class="active" href=index.html>Simple Interest Calculator</a>
     </nav>
     <p>
-    <form action="simple-interest-plus-principal-calculator.php" method="post" class="calculatorForm" id="CalculatorForm" name="CalculatorForm" onsubmit="calculateButtonWorking()">
-    Principal Amount(P): <input id="p" required></br></br>
-    Rate (R):             <input id="r" required></br></br>
-    Time (t):      <input id="n" required></br></br>
-    <button onClick="calculate()", onSubmit="resetCalculator(form)">Calculate the simple interest</button></form>
+    Principal Amount(P): <input id="p" type ="number" required></br></br>
+    Rate (R):             <input id="r" type ="number"  required></br></br>
+    Time (t):      <input id="n" type ="number"  required></br></br>
+    <button onClick="calculate()">Calculate the simple interest</button>
     <p id="result"></p>
     <footer>
         <p id="footer-text">Copyright &copy; Imoh Etuk 2020</p>
